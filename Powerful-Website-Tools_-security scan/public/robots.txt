@@ -1,0 +1,16 @@
+# robots.txt for Powerful Website You Should Know
+# Allow all crawlers to access all content
+
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Crawl-delay for good behavior
+Crawl-delay: 1

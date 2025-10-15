@@ -1,0 +1,1 @@
+ALTER TABLE `tools` ADD `is_tool_of_the_week` integer DEFAULT false;

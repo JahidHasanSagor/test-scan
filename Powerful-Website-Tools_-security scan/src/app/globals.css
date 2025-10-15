@@ -1,0 +1,448 @@
+/* Updated: 2025-10-15T20:12:54.837Z */
+/* Updated: 2025-10-15T19:57:52.382Z */
+/* Updated: 2025-10-15T19:54:03.847Z */
+/* Updated: 2025-10-15T16:38:01.534Z */
+/* Updated: 2025-10-15T16:08:55.638Z */
+/* Updated: 2025-10-15T15:36:46.118Z */
+/* Updated: 2025-10-15T15:33:36.296Z */
+/* Updated: 2025-10-15T14:59:36.631Z */
+/* Updated: 2025-10-15T14:59:35.059Z */
+/* Updated: 2025-10-15T13:20:56.032Z */
+/* Updated: 2025-10-15T13:04:07.642Z */
+/* Updated: 2025-10-14T23:29:42.895Z */
+/* Updated: 2025-10-14T23:23:55.711Z */
+/* Updated: 2025-10-14T23:17:07.620Z */
+/* Updated: 2025-10-14T23:13:56.008Z */
+/* Updated: 2025-10-14T22:51:31.787Z */
+/* Updated: 2025-10-14T19:25:43.338Z */
+/* Updated: 2025-10-14T19:24:29.935Z */
+/* Updated: 2025-10-14T18:59:32.104Z */
+/* Updated: 2025-10-14T18:56:33.137Z */
+/* Updated: 2025-10-14T18:49:44.181Z */
+/* Updated: 2025-10-14T18:47:16.770Z */
+/* Updated: 2025-10-14T18:46:05.214Z */
+/* Updated: 2025-10-14T18:44:32.318Z */
+/* Updated: 2025-10-14T18:43:23.715Z */
+/* Updated: 2025-10-14T18:40:16.451Z */
+/* Updated: 2025-10-14T18:31:59.550Z */
+/* Updated: 2025-10-14T17:05:12.806Z */
+/* Updated: 2025-10-14T16:53:03.744Z */
+/* Updated: 2025-10-14T13:10:41.934Z */
+/* Updated: 2025-10-14T13:10:40.138Z */
+/* Updated: 2025-10-14T12:54:40.501Z */
+/* Updated: 2025-10-14T12:54:38.958Z */
+/* Updated: 2025-10-14T12:38:21.851Z */
+/* Updated: 2025-10-14T10:35:53.660Z */
+/* Updated: 2025-10-14T01:31:34.386Z */
+/* Updated: 2025-10-14T01:11:31.942Z */
+/* Updated: 2025-10-14T01:00:43.119Z */
+/* Updated: 2025-10-14T00:33:01.631Z */
+/* Updated: 2025-10-14T00:14:17.366Z */
+/* Updated: 2025-10-14T00:13:17.519Z */
+/* Updated: 2025-10-14T00:10:15.985Z */
+/* Updated: 2025-10-14T00:09:21.704Z */
+/* Updated: 2025-10-14T00:01:10.210Z */
+/* Updated: 2025-10-13T21:37:11.370Z */
+/* Updated: 2025-10-13T21:36:13.583Z */
+/* Updated: 2025-10-13T20:36:32.706Z */
+/* Updated: 2025-10-13T20:16:41.715Z */
+/* Updated: 2025-10-13T17:30:42.459Z */
+/* Updated: 2025-10-13T17:25:01.087Z */
+/* Updated: 2025-10-13T17:23:22.388Z */
+/* Updated: 2025-10-13T17:23:21.271Z */
+/* Updated: 2025-10-13T17:23:17.768Z */
+/* Updated: 2025-10-13T17:22:10.265Z */
+/* Updated: 2025-10-13T17:11:16.366Z */
+/* Updated: 2025-10-13T17:02:35.761Z */
+/* Updated: 2025-10-13T17:02:32.136Z */
+/* Updated: 2025-10-13T16:37:51.232Z */
+/* Updated: 2025-10-13T16:37:05.344Z */
+/* Updated: 2025-10-13T16:36:40.230Z */
+/* Updated: 2025-10-13T16:29:58.002Z */
+/* Updated: 2025-10-13T16:29:29.175Z */
+/* Updated: 2025-10-13T15:40:17.433Z */
+/* Updated: 2025-10-13T15:29:47.226Z */
+/* Updated: 2025-10-13T14:20:44.495Z */
+/* Updated: 2025-10-13T11:35:31.419Z */
+/* Updated: 2025-10-13T11:17:22.836Z */
+/* Updated: 2025-10-13T11:04:04.927Z */
+/* Updated: 2025-10-13T10:54:55.152Z */
+/* Updated: 2025-10-13T10:49:37.103Z */
+/* Updated: 2025-10-13T10:37:43.823Z */
+/* Updated: 2025-10-13T10:33:54.487Z */
+/* Updated: 2025-10-13T10:15:30.165Z */
+/* Updated: 2025-10-13T10:15:16.513Z */
+/* Updated: 2025-10-13T09:41:25.695Z */
+/* Updated: 2025-10-13T09:05:23.422Z */
+/* Updated: 2025-10-13T07:12:24.354Z */
+/* Updated: 2025-10-13T07:10:25.778Z */
+/* Updated: 2025-10-12T22:19:08.574Z */
+/* Updated: 2025-10-12T22:17:25.394Z */
+/* Updated: 2025-10-12T16:47:35.032Z */
+/* Updated: 2025-10-12T16:47:31.930Z */
+/* Updated: 2025-10-12T16:30:07.181Z */
+/* Updated: 2025-10-12T16:25:37.747Z */
+/* Updated: 2025-10-12T16:25:34.385Z */
+/* Updated: 2025-10-12T16:08:33.424Z */
+/* Updated: 2025-10-12T16:08:29.810Z */
+/* Updated: 2025-10-12T15:51:32.787Z */
+/* Updated: 2025-10-12T15:51:29.332Z */
+/* Updated: 2025-10-12T15:35:14.700Z */
+/* Updated: 2025-10-12T14:21:34.560Z */
+/* Updated: 2025-10-12T14:21:31.529Z */
+/* Updated: 2025-10-12T14:04:35.009Z */
+/* Updated: 2025-10-12T14:04:31.520Z */
+/* Updated: 2025-10-12T13:47:34.086Z */
+/* Updated: 2025-10-12T13:47:28.827Z */
+/* Updated: 2025-10-12T13:27:50.416Z */
+/* Updated: 2025-10-12T13:01:00.532Z */
+/* Updated: 2025-10-12T12:57:30.709Z */
+/* Updated: 2025-10-12T12:51:56.189Z */
+/* Updated: 2025-10-12T12:48:18.378Z */
+/* Updated: 2025-10-12T12:35:58.703Z */
+/* Updated: 2025-10-12T12:01:00.824Z */
+/* Updated: 2025-10-12T11:42:57.009Z */
+/* Updated: 2025-10-12T07:19:35.915Z */
+/* Updated: 2025-10-11T21:29:48.493Z */
+/* Updated: 2025-10-11T21:00:25.630Z */
+/* Updated: 2025-10-11T19:06:00.249Z */
+/* Updated: 2025-10-11T18:55:48.849Z */
+/* Updated: 2025-10-11T18:50:14.875Z */
+/* Updated: 2025-10-11T18:44:00.432Z */
+/* Updated: 2025-10-11T18:42:55.536Z */
+/* Updated: 2025-10-11T16:05:10.809Z */
+/* Updated: 2025-10-11T15:50:33.240Z */
+/* Updated: 2025-10-11T15:34:43.923Z */
+/* Updated: 2025-10-11T15:29:37.802Z */
+/* Updated: 2025-10-11T15:28:34.488Z */
+/* Updated: 2025-10-11T11:01:43.604Z */
+/* Updated: 2025-10-11T11:00:51.228Z */
+/* Updated: 2025-10-11T10:31:34.140Z */
+/* Updated: 2025-10-11T03:07:51.117Z */
+/* Updated: 2025-10-10T23:12:26.214Z */
+/* Updated: 2025-10-10T18:03:58.930Z */
+/* Updated: 2025-10-10T12:20:51.130Z */
+/* Updated: 2025-10-10T12:20:40.285Z */
+/* Updated: 2025-10-10T12:04:16.094Z */
+/* Updated: 2025-10-10T03:59:33.557Z */
+/* Updated: 2025-10-09T23:34:05.230Z */
+/* Updated: 2025-10-09T22:27:29.890Z */
+/* Updated: 2025-10-09T22:10:33.090Z */
+/* Updated: 2025-10-09T22:10:11.601Z */
+/* Updated: 2025-10-09T22:08:16.324Z */
+/* Updated: 2025-10-09T22:07:05.274Z */
+/* Updated: 2025-10-09T20:34:48.656Z */
+/* Updated: 2025-10-09T18:31:35.080Z */
+/* Updated: 2025-10-09T18:15:43.595Z */
+/* Updated: 2025-10-09T17:00:11.979Z */
+/* Updated: 2025-10-09T16:34:51.817Z */
+/* Updated: 2025-10-09T16:03:34.085Z */
+/* Updated: 2025-10-09T15:51:17.818Z */
+/* Updated: 2025-10-09T15:40:35.405Z */
+/* Updated: 2025-10-09T15:40:33.620Z */
+/* Updated: 2025-10-09T15:24:58.213Z */
+/* Updated: 2025-10-09T12:43:38.153Z */
+/* Updated: 2025-10-09T12:43:36.281Z */
+/* Updated: 2025-10-09T11:42:44.194Z */
+/* Updated: 2025-10-09T11:13:58.380Z */
+/* Updated: 2025-10-09T02:17:18.804Z */
+/* Updated: 2025-10-08T14:03:55.353Z */
+/* Updated: 2025-10-08T11:45:09.110Z */
+/* Updated: 2025-10-08T11:42:57.043Z */
+/* Updated: 2025-10-07T23:57:12.948Z */
+/* Updated: 2025-10-07T23:53:46.668Z */
+/* Updated: 2025-10-07T13:16:50.712Z */
+/* Updated: 2025-10-07T12:40:11.214Z */
+/* Updated: 2025-10-06T15:03:02.815Z */
+/* Updated: 2025-10-06T14:23:02.242Z */
+/* Updated: 2025-10-06T14:19:01.698Z */
+/* Updated: 2025-10-06T13:57:13.537Z */
+/* Updated: 2025-10-06T13:34:36.294Z */
+/* Updated: 2025-10-06T13:07:27.808Z */
+/* Updated: 2025-10-06T00:21:13.093Z */
+/* Updated: 2025-10-06T00:21:02.678Z */
+/* Updated: 2025-10-06T00:20:33.504Z */
+/* Updated: 2025-10-05T21:43:01.830Z */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+/* Light Mode Colors */
+--color-background: #f8f9fb;
+--color-foreground: #0f1420;
+--color-card: #ffffff;
+--color-card-foreground: #0f1420;
+--color-popover: #ffffff;
+--color-popover-foreground: #0f1420;
+--color-primary: #6366f1;
+--color-primary-foreground: #ffffff;
+--color-secondary: #f3f5f7;
+--color-secondary-foreground: #0f1420;
+--color-muted: #f3f5f7;
+--color-muted-foreground: #667085;
+--color-accent: #e8f4ee;
+--color-accent-foreground: #0f1420;
+--color-destructive: #ef4444;
+--color-destructive-foreground: #ffffff;
+--color-border: #e3e6ea;
+--color-input: #e3e6ea;
+--color-ring: #6366f1;
+--color-chart-1: #0f1420;
+--color-chart-2: #10b981;
+--color-chart-3: #2563eb;
+--color-chart-4: #f59e0b;
+--color-chart-5: #8b5cf6;
+
+/* AI Gradient Colors */
+--color-gradient-start: #8b5cf6;
+--color-gradient-mid: #6366f1;
+--color-gradient-end: #2563eb;
+--color-ai-glow: #a78bfa;
+--color-ai-aura: rgba(139, 92, 246, 0.15);
+
+/* Dark Mode Colors */
+--color-dark-background: #0a0b0f;
+--color-dark-foreground: #f8fafc;
+--color-dark-card: #151721;
+--color-dark-card-foreground: #f8fafc;
+--color-dark-popover: #151721;
+--color-dark-popover-foreground: #f8fafc;
+--color-dark-primary: #8b5cf6;
+--color-dark-primary-foreground: #ffffff;
+--color-dark-secondary: #1e2130;
+--color-dark-secondary-foreground: #f8fafc;
+--color-dark-muted: #1e2130;
+--color-dark-muted-foreground: #94a3b8;
+--color-dark-accent: #2d1b4e;
+--color-dark-accent-foreground: #f8fafc;
+--color-dark-border: #27293a;
+--color-dark-input: #27293a;
+--color-dark-ring: #8b5cf6;
+
+--color-sidebar: #f8f9fb;
+--color-sidebar-foreground: #3f3f46;
+--color-sidebar-primary: #0f1420;
+--color-sidebar-primary-foreground: #ffffff;
+--color-sidebar-accent: #ffffff;
+--color-sidebar-accent-foreground: #0f1420;
+--color-sidebar-border: #e3e6ea;
+--color-sidebar-ring: #0f1420;
+--radius-lg: 1.25rem;
+--radius-md: calc(1.25rem - 2px);
+--radius-sm: calc(1.25rem - 4px);
+--animate-accordion-down: accordion-down 0.2s ease-out;
+@keyframes accordion-down {
+from { height: 0; }
+to { height: var(--radix-accordion-content-height); }
+}
+--animate-accordion-up: accordion-up 0.2s ease-out;
+@keyframes accordion-up {
+from { height: var(--radix-accordion-content-height); }
+to { height: 0; }
+}
+--color-brand: #6366f1;
+--color-brand-soft: #e0e7ff;
+--color-brand-contrast: #ffffff;
+--color-badge-new-bg: #fff29b;
+--color-badge-new-text: #1f8f59;
+--color-success: #16a34a;
+--color-success-soft: #dcfce7;
+--font-sans: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+--font-display: Poppins, "Plus Jakarta Sans", Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+/*
+The default border color has changed to currentColor in Tailwind CSS v4,
+so we've added these compatibility styles to make sure everything still
+looks the same as it did with Tailwind CSS v3.
+If we ever want to remove these styles, we need to add an explicit border
+color utility to any element that depends on these defaults.
+*/
+@layer base {
+*,
+::after,
+::before,
+::backdrop,
+::file-selector-button {
+border-color: var(--border);
+}
+}
+@layer utilities {
+body {
+font-family: var(--font-sans);
+}
+}
+@layer base {
+:root {
+--background: var(--color-background);
+--foreground: var(--color-foreground);
+--card: var(--color-card);
+--card-foreground: var(--color-card-foreground);
+--popover: var(--color-popover);
+--popover-foreground: var(--color-popover-foreground);
+--primary: var(--color-primary);
+--primary-foreground: var(--color-primary-foreground);
+--secondary: var(--color-secondary);
+--secondary-foreground: var(--color-secondary-foreground);
+--muted: var(--color-muted);
+--muted-foreground: var(--color-muted-foreground);
+--accent: var(--color-accent);
+--accent-foreground: var(--color-accent-foreground);
+--destructive: var(--color-destructive);
+--destructive-foreground: var(--color-destructive-foreground);
+--border: var(--color-border);
+--input: var(--color-input);
+--ring: var(--color-ring);
+--chart-1: var(--color-chart-1);
+--chart-2: var(--color-chart-2);
+--chart-3: var(--color-chart-3);
+--chart-4: var(--color-chart-4);
+--chart-5: var(--color-chart-5);
+--radius: var(--radius-lg);
+--sidebar-background: var(--color-sidebar);
+--sidebar-foreground: var(--color-sidebar-foreground);
+--sidebar-primary: var(--color-sidebar-primary);
+--sidebar-primary-foreground: var(--color-sidebar-primary-foreground);
+--sidebar-accent: var(--color-sidebar-accent);
+--sidebar-accent-foreground: var(--color-sidebar-accent-foreground);
+--sidebar-border: var(--color-sidebar-border);
+--sidebar-ring: var(--color-sidebar-ring);
+}
+
+.dark {
+/* Override the actual color tokens that Tailwind uses */
+--color-background: var(--color-dark-background);
+--color-foreground: var(--color-dark-foreground);
+--color-card: var(--color-dark-card);
+--color-card-foreground: var(--color-dark-card-foreground);
+--color-popover: var(--color-dark-popover);
+--color-popover-foreground: var(--color-dark-popover-foreground);
+--color-primary: var(--color-dark-primary);
+--color-primary-foreground: var(--color-dark-primary-foreground);
+--color-secondary: var(--color-dark-secondary);
+--color-secondary-foreground: var(--color-dark-secondary-foreground);
+--color-muted: var(--color-dark-muted);
+--color-muted-foreground: var(--color-dark-muted-foreground);
+--color-accent: var(--color-dark-accent);
+--color-accent-foreground: var(--color-dark-accent-foreground);
+--color-border: var(--color-dark-border);
+--color-input: var(--color-dark-input);
+--color-ring: var(--color-dark-ring);
+
+/* Also update semantic variables for backward compatibility */
+--background: var(--color-dark-background);
+--foreground: var(--color-dark-foreground);
+--card: var(--color-dark-card);
+--card-foreground: var(--color-dark-card-foreground);
+--popover: var(--color-dark-popover);
+--popover-foreground: var(--color-dark-popover-foreground);
+--primary: var(--color-dark-primary);
+--primary-foreground: var(--color-dark-primary-foreground);
+--secondary: var(--color-dark-secondary);
+--secondary-foreground: var(--color-dark-secondary-foreground);
+--muted: var(--color-dark-muted);
+--muted-foreground: var(--color-dark-muted-foreground);
+--accent: var(--color-dark-accent);
+--accent-foreground: var(--color-dark-accent-foreground);
+--border: var(--color-dark-border);
+--input: var(--color-dark-input);
+--ring: var(--color-dark-ring);
+--sidebar-background: var(--color-dark-card);
+--sidebar-foreground: var(--color-dark-foreground);
+--sidebar-border: var(--color-dark-border);
+}
+}
+
+@layer base {
+html {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+margin: 0;
+padding: 0;
+}
+body {
+background-color: var(--background);
+color: var(--foreground);
+transition: background-color 0.3s ease, color 0.3s ease;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+.container {
+margin-inline: auto;
+padding-inline: 2rem;
+}
+}
+
+@layer base {
+h1, h2, h3, h4, h5, h6 {
+font-family: var(--font-display);
+color: var(--foreground);
+letter-spacing: -0.02em;
+}
+h1 { font-weight: 800; line-height: 1.08; }
+h2 { font-weight: 800; line-height: 1.1; }
+h3 { font-weight: 700; line-height: 1.15; }
+h4 { font-weight: 600; line-height: 1.2; }
+h5 { font-weight: 600; line-height: 1.25; }
+h6 { font-weight: 600; line-height: 1.3; }
+p {
+color: var(--foreground);
+}
+small, .text-muted {
+color: var(--muted-foreground);
+}
+a {
+color: var(--foreground);
+text-decoration-color: var(--color-brand);
+text-underline-offset: 3px;
+}
+mark {
+background-color: var(--color-badge-new-bg);
+color: var(--color-badge-new-text);
+border-radius: 9999px;
+padding: 0.1em 0.5em;
+}
+.font-display { font-family: var(--font-display); }
+.font-sans { font-family: var(--font-sans); }
+.font-mono { font-family: var(--font-mono); }
+}
+
+/* AI Gradient Utilities */
+@layer utilities {
+.gradient-ai {
+background: linear-gradient(135deg, var(--color-gradient-start) 0%, var(--color-gradient-mid) 50%, var(--color-gradient-end) 100%);
+}
+.gradient-text {
+background: linear-gradient(135deg, var(--color-gradient-start) 0%, var(--color-gradient-mid) 50%, var(--color-gradient-end) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.ai-glow {
+box-shadow: 0 0 20px var(--color-ai-aura), 0 0 40px var(--color-ai-aura);
+}
+.ai-border {
+border: 1px solid transparent;
+background: linear-gradient(var(--color-card), var(--color-card)) padding-box,
+linear-gradient(135deg, var(--color-gradient-start), var(--color-gradient-end)) border-box;
+}
+}
+
+/* Grid Pattern Background */
+@layer base {
+.grid-pattern {
+background-image: 
+linear-gradient(var(--color-border) 1px, transparent 1px),
+linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+background-size: 50px 50px;
+opacity: 0.3;
+}
+}
+
+/* Hide Next.js error overlay portal */
+nextjs-portal {
+  display: none !important;
+}
