@@ -1,5 +1,6 @@
 "use client";
 
+import { sanitizeUrl, sanitizeRedirectUrl } from "@/lib/security/url-sanitizer";
 import * as React from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -149,7 +150,7 @@ export default function AdminDashboard() {
     setSelectedKPI(kpi);
     toast.success(`Filtering tools by: ${kpi}`);
     setTimeout(() => {
-      window.location.href = filterUrl;
+      window.location.href = sanitizeRedirectUrl(filterUrl);
     }, 500);
   };
 
@@ -410,7 +411,7 @@ export default function AdminDashboard() {
                   <CardContent>
                     <div className="text-2xl font-bold">{stat.value}</div>
                     <p className="text-xs text-muted-foreground mt-1">{stat.subtitle}</p>
-                    <Link href={stat.action.href}>
+                    <Link href={sanitizeUrl(stat.action.href)}>
                       <Button variant="ghost" size="sm" className="mt-3 w-full gap-2 hover:bg-primary/10">
                         {stat.action.label}
                         <ArrowRight className="h-3 w-3" />

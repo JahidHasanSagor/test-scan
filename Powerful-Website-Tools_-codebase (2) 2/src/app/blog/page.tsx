@@ -11,6 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { BlogCardGridSkeleton } from "@/components/skeletons/blog-card-skeleton";
 import { Search, ChevronLeft, ChevronRight, Calendar, Clock, User, Loader2 } from "lucide-react";
+import { sanitizeImageSrc } from "@/lib/security/url-sanitizer";
 
 type BlogPost = {
   id: number;
@@ -232,7 +233,7 @@ function BlogContent() {
                 <div className="relative aspect-[16/9] md:aspect-square overflow-hidden rounded-[var(--radius)] bg-secondary">
                   {currentFeatured.featuredImage ? (
                     <img
-                      src={currentFeatured.featuredImage}
+                      src={sanitizeImageSrc(currentFeatured.featuredImage)}
                       alt={currentFeatured.title}
                       className="h-full w-full object-cover"
                     />
@@ -401,7 +402,7 @@ function BlogContent() {
                     <div className="relative aspect-[16/9] overflow-hidden border-b border-border bg-secondary">
                       {post.featuredImage ? (
                         <img
-                          src={post.featuredImage}
+                          src={sanitizeImageSrc(post.featuredImage)}
                           alt={post.title}
                           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />

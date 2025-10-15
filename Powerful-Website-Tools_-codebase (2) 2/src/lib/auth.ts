@@ -6,7 +6,7 @@ import { headers } from "next/headers"
 import { db } from "@/db";
  
 export const auth = betterAuth({
-	secret: process.env.BETTER_AUTH_SECRET || "fallback-secret-for-development",
+	secret: process.env.BETTER_AUTH_SECRET,
 	database: drizzleAdapter(db, {
 		provider: "sqlite",
 	}),

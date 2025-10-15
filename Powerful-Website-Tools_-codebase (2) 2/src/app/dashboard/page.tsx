@@ -32,6 +32,7 @@ import {
   AlertCircle
 } from "lucide-react";
 import { toast } from "sonner";
+import { sanitizeUrl } from "@/lib/security/url-sanitizer";
 
 interface SavedTool {
   id: number;
@@ -486,7 +487,7 @@ export default function DashboardPage() {
                             asChild
                           >
                             <a
-                              href={tool.url}
+                              href={sanitizeUrl(tool.url)}
                               target="_blank"
                               rel="noopener noreferrer"
                             >
